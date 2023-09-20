@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1473&q=80);
+}
+
+.kanban {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 15rem;
+    padding: 20px;
+    width: max-content;
+}
+
+.column {
+    background: linear-gradient(to bottom, rgba(255, 87, 51, 0.5), rgba(255, 204, 51, 0.5));
+    border-radius: 5px;
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top{
+    border: 0.051px solid white;
+    border-radius: 3px;
+}
+
+div.card{
+    padding: 5px;
+    margin-top: 5px;
+    border-color: orangered;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus{
+    outline: 1px solid orangered;
+}
+
+moveButton {
+    background-color: #f1f1f1;
+    font-size: 14px;
+    color: #000;
+    border: none;
+    padding: 5px 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    float: right;
+}
+
+moveButton:hover {
+    color: white;
+    font-weight: 500;
+    background-color: #08c95c;
+}
+
+deleteButton {
+    background-color: #f1f1f1;
+    font-size: 14px;
+    color: #000;
+    border: none;
+    padding: 5px 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    float: right;
+}
+
+deleteButton:hover{
+    color: white;
+    font-weight: 500;
+    background-color: red;
+} 
+
+#btn_add {
+    background-color: #f1f1f1;
+    font-size: 14px;
+    color: #000;
+    border: none;
+    padding: 5px 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    float: right;
+}
+
+#btn_add:hover {
+    color: white;
+    font-weight: 500;
+    background-color: #ff7b46;
+}

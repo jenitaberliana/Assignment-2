@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanban</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="kanban">
+      <div class="column" id="todo">
+        <img src="image/todo.jpg" class="card-img-top" />
+        <div class="cards" id="todo-cards"></div>
+        <input type="text" placeholder="Ketik disini.." id="todo-input" />
+        <button onclick="addToDo()" id="btn_add">+ Add</button>
+      </div>
+      <div class="column" id="doing">
+        <img src="image/doing.jpg" class="card-img-top" />
+        <div class="cards" id="doing-cards"></div>
+      </div>
+      <div class="column" id="done">
+        <img src="image/done.jpg" class="card-img-top" />
+        <div class="cards" id="done-cards"></div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
